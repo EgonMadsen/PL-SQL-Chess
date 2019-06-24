@@ -14,7 +14,7 @@ PL_PIG_CHESS_INTERFACE
 
 TECHNICAL (PL/SQL)
 PL/SQL is a quite restricted and slow language, not the perfect choice for a Chess Engine.
-If You want top strength, don't use PIG-Chess, but install a Stockfish Engine at Your HOST OS.
+If You want top strength, don't use PIG-Chess.
 
 Fair Performance is reached by intensive use of VARRAYS, SIMPLE_INTEGER and INLINE'able SET operators. 
 And by NOT using SQL features. The many initiations of arrays happens only one time pr session/game.
