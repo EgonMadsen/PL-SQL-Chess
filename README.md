@@ -43,13 +43,3 @@ USE:
 
 OR:
 Make your own graphical (APEX?) interface...
-
-
-
-
-*******************************************
--- * Disclaimer (use at your own risk):                                               
--- * Any use of this software is strictly at your own risk, and I will not be liable for 
--- * any losses and damages in connection with the use of this software.
--- ****************************************************************************************
--- LICENSE <end>
