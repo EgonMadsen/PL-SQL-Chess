@@ -2,7 +2,7 @@
 Chess Engine made in Oracle PL/SQL
 
 
-PL_PIG_CHESS is a Chess Engine written in Oracle PL/SQL. (c) Egon Von Bech Madsen, Denmark
+PL_PIG_CHESS is a Chess Engine written in Oracle PL/SQL. (c) Egon Von Bech Madsen, Denmark (Freeware)
 
 It works on Oracle databases only.
 
