@@ -1,6 +1,6 @@
 # PL/SQL Chess Engine
 
-This freeware chess Engine, written in PL/SQL by Egon Von Bech Madsen for Oracle Database, consists of the following packages:
+This freeware chess engine, written in PL/SQL by Egon Von Bech Madsen for Oracle Database, consists of the following packages:
 
 * PL\_PIG\_CHESS\_ENGINE
 * PL\_PIG\_CHESS\_ENGINE\_EVAL
