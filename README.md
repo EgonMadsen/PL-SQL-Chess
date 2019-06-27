@@ -1,45 +1,49 @@
-# PL-SQL-Chess
-Chess Engine made in Oracle PL/SQL
+# PL/SQL Chess Engine
 
+This freeware chess engine, written in PL/SQL by Egon Von Bech Madsen for Oracle Database, consists of the following packages:
 
-PL_PIG_CHESS is a Chess Engine written in Oracle PL/SQL. (c) Egon Von Bech Madsen, Denmark (Freeware)
+* PL\_PIG\_CHESS\_ENGINE
+* PL\_PIG\_CHESS\_ENGINE\_EVAL
+* PL\_PIG\_CHESS\_DATA
+* PL\_PIG\_CHESS\_INTERFACE
 
-It works on Oracle databases only.
+## Technical Overview
 
-It contains 4 packages:
-PL_PIG_CHESS_ENGINE
-PL_PIG_CHESS_ENGINE_EVAL
-PL_PIG_CHESS_DATA
-PL_PIG_CHESS_INTERFACE 
+### PL/SQL
 
-TECHNICAL (PL/SQL)
 PL/SQL is a quite restricted and slow language, not the perfect choice for a Chess Engine.
 If You want top strength, don't use PIG-Chess.
 
-Fair Performance is reached by intensive use of VARRAYS, SIMPLE_INTEGER and INLINE'able SET operators. 
-And by NOT using SQL features. The many initiations of arrays happens only one time pr session/game.
+Fair Performance is reached by intensive use of VARRAYS, SIMPLE\_INTEGER and INLINEable SET operators. And by NOT using SQL features. The many initiations of arrays happens only one time pr session/game.
 
-TECHNICAL (CHESS)
-Opening book
-Static evaluation
-quiescence deepening minimax algorithm with alpha/beta cut-off and sort for better pruning
-Q-search (deeper selective search on killer-moves like check)
-Leaf evaluation
-Single CPU only
-Supports 5 levels (from few seconds to several minutes pr move).
-Rating: up to 1600
-FEN and EPD is supported.
+### Chess Engine
 
-INSTALLATION
+* Opening book
+* Static evaluation
+* quiescence deepening minimax algorithm with alpha/beta cut-off and sort for better pruning
+* Q-search (deeper selective search on killer-moves like check)
+* Leaf evaluation
+* Single CPU only
+* Supports 5 levels (from few seconds to several minutes pr move).
+* Rating: up to 1600
+* FEN and EPD is supported.
+
+## INSTALLATION
 Install the 4 packages on a Oracle database:
-1. PL_PIG_CHESS_DATA
-2. PL_PIG_CHESS_ENGINE_EVAL
-3. PL_PIG_CHESS_ENGINE
-4. PL_PIG_CHESS_INTERFACE
+
+1. PL\_PIG\_CHESS\_ENGINE
+2. PL\_PIG\_CHESS\_ENGINE\_EVAL
+3. PL\_PIG\_CHESS\_DATA
+4. PL\_PIG\_CHESS\_INTERFACE
 
 USE:
-1. Use SQL*PLUS or Toad/SQL-Developer with DBMS_OUTPUT activated
-2. Use examples seen in PL_PIG_CHESS_INTERFACE
+
+1. Use SQL*PLUS or Toad/SQL-Developer with DBMS\_OUTPUT activated
+2. Use examples seen in PL\_PIG\_CHESS\_INTERFACE
 
 OR:
 Make your own graphical (APEX?) interface...
+
+## License
+
+This is distributed under the Diceware License.
