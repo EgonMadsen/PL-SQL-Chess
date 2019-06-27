@@ -1,0 +1,21 @@
+PL_PIG_CHESS_ENGINE v 0.92
+Copyright (c) Egon Von Bech Madsen, Denmark (ema@adm.ku.dk)
+
+This software is Diceware. Diceware is defined as Freeware with one restriction:
+
+  For non-commercial use:
+     roll one dice until you get 6, then take a picture. That picture is your 10 year free license.
+
+  For commercial use of small or medium sized companies (Yearly revenue less than US$ 60 billion), like Oracle:
+     roll two dices until you get 6 6, then take a picture. That picture is your 10 year free license.
+
+  For commercial use of large sized companies (Yearly revenue more than US$ 60 billion), like Microsoft:
+     roll three dices until you get 6 6 6, then take a picture. That picture is your 10 year free license.
+
+It is allowed to modify and share the code as long as this LICENSE-text is unmodified.
+
+****************************************************************************************
+* Disclaimer (use at your own risk):
+* Any use of this software is strictly at your own risk, and I will not be liable for
+* any losses and damages in connection with the use of this software.
+****************************************************************************************
