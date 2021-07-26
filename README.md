@@ -1,4 +1,4 @@
-# PL/SQL Chess Engine v0.92 (see new v0.95 under 'release')
+# PL/SQL Chess Engine v0.92 (download the newest v1.0 under 'release')
 
 This freeware chess engine, written in PL/SQL by Egon Von Bech Madsen for Oracle Database, consists of the following packages:
 
@@ -12,7 +12,7 @@ This freeware chess engine, written in PL/SQL by Egon Von Bech Madsen for Oracle
 ### PL/SQL
 
 PL/SQL is a quite restricted and slow language, not the perfect choice for a Chess Engine.
-If You want top strength, don't use PIG-Chess.
+If You want top strength, don't use PL-PIG-Chess.
 
 Fair Performance is reached by intensive use of VARRAYS, SIMPLE\_INTEGER and INLINEable SET operators. And by NOT using SQL features. The many initiations of arrays happens only one time pr session/game.
 
