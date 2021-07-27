@@ -46,6 +46,6 @@ USE:
 OR install the GUI PL\_PIG\_CHS\_GUI or
 maybe make your own graphical (APEX?) interface...
 
-## [License] (https://github.com/EgonMadsen/PL-SQL-Chess/blob/master/LICENSE)
+## [License](https://github.com/EgonMadsen/PL-SQL-Chess/blob/master/LICENSE)
 
 This is distributed under the Diceware License.
