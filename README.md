@@ -1,4 +1,4 @@
-# PL/SQL Chess Engine v0.92 (download the newest [Release 1.0](https://github.com/EgonMadsen/PL-SQL-Chess/releases/tag/v1.0) under 'release')
+# PL/SQL Chess Engine v0.92 (download the much stronger [Release 1.01](https://github.com/EgonMadsen/PL-SQL-Chess/releases/tag/v1.01) under 'release')
 
 This freeware chess engine, written in PL/SQL by Egon Von Bech Madsen for Oracle Database, consists of the following packages:
 
